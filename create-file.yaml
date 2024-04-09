@@ -1,1 +1,6 @@
-
+---
+- hosts: 9.37.121.111
+  tasks:
+  - name: Content Update
+    shell: "touch /tmp/ansible-test.txt"
+    
