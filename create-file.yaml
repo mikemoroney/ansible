@@ -1,6 +1,6 @@
 ---
 - name: create-file
-  hosts: 9.37.205.111
+  hosts: 9.37.205.176
   tasks:
   - name: Content Update
     shell: "touch /tmp/ansible-test.txt"
