@@ -1,6 +1,6 @@
 ---
 - name: create-file
-  hosts: 9.37.205.176
+  hosts: cili1.fyre.ibm.com
   tasks:
   - name: Content Update
     shell: "touch /tmp/ansible-test.txt"
